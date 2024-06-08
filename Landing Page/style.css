@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12PX;
+}
+.topleft{
+    width: 50%;
+    
+}
+.topright{
+    width: 50%;
+    
+}
+.section1{
+    min-height: 40vh;
+    padding: 73px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2{
+padding: 73px;
+
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid grey;
+    text-align: center;
+    border-radius: 8px;
+}
+.box h2{
+    border-bottom:2px solid grey ;
+    padding: 20px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.highlighted{
+    font-size: 1.2 rem;
+    font-weight: bolder;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+ width: 100%;
+ margin-bottom: 140PX;
+ margin-top: 20px;
+ border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom:2px solid grey ;
+    padding: 15px 0;
+    
+   
+   }
+   .section3 table td{
+    border-bottom:2px solid grey ;
+   
+   }
+   
+.section3 h1{
+    font-size: 2rem;
+}
+.section3{
+    padding: 73px;
+
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+/*Reuse classess*/
+.min-h-screen{
+    min-height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+ justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+   }
+.item-center{
+ align-items: center;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.flex-col{
+    flex-direction: column;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom:13px;
+}
+.my-2{
+    margin-top: 26px;
+    margin-bottom:26px;
+}
+
+.px-2{
+ padding-left: 13px;
+ padding-right: 13px;
+}
+.text-blue{
+ color: rgb(29, 88, 214);
+}
+.btn{
+    padding: 7px 12px;
+   cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(29, 88, 214);
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+
+}
+.dumbellsiza{
+    width: 400px;
+    align-self: Left;
+}
+.text-center{
+    text-align: center;
+}
